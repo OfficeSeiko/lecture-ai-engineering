@@ -9,7 +9,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 import pickle
 import time
-
+import great_expectations as gx
 # 
 
 class DataLoader:
